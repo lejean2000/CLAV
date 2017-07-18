@@ -9,3 +9,6 @@ The two main groups of measures will be implemented - external and internal vali
 External measures which will be implemented include: entropy, purity, F-measure, information variation, Fowlkes & Mallows index, Hubert Γ statistics, Goodman-Kruskal coeficient, etc.
 
 Internal measures which will be implemented include: Root-mean-square standard deviation, Dunn’s index, Silhouette index, CVNN index, Calinski-Harabasz index, etc.
+
+## Current Status
+This package has just been created. It has only one external cluster validation measure implemented. The clav.vanDongen() function computes the value of the van Dongen crietrion. More about it [can be read here]( http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.9783&rep=rep1&type=pdf)

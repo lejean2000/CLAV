@@ -2,8 +2,7 @@
 % Please edit documentation in R/clav.vanDongen.R
 \name{clav.vanDongen}
 \alias{clav.vanDongen}
-\title{Computes the van Dongen criterion
-(2n− ∑_i (max_j n(i,j)) − ∑_j (max_i n(i,j)) )/2n}
+\title{Computes the van Dongen criterion}
 \usage{
 clav.vanDongen(x, y)
 }
@@ -13,11 +12,10 @@ clav.vanDongen(x, y)
 \item{y}{A vector with cluster assignments.}
 }
 \value{
-The value of van Dongen criterion.
+The value of van Dongen criterion. An integer between 0 and 1. Lower values indicate better cluster similarity.
 }
 \description{
 Computes the van Dongen criterion
-(2n− ∑_i (max_j n(i,j)) − ∑_j (max_i n(i,j)) )/2n
 }
 \examples{
 d<-vegan::vegdist (iris[,3:4], method = "euclidean")

@@ -1,8 +1,8 @@
 #' Computes the van Dongen criterion
-#' (2n− ∑_i (max_j n(i,j)) − ∑_j (max_i n(i,j)) )/2n
+#'
 #' @param x A vector with cluster assignments.
 #' @param y A vector with cluster assignments.
-#' @return The value of van Dongen criterion.
+#' @return The value of van Dongen criterion. An integer between 0 and 1. Lower values indicate better cluster similarity.
 #' @examples
 #' d<-vegan::vegdist (iris[,3:4], method = "euclidean")
 #' c<-cluster::pam (d, 3, diss = TRUE)
