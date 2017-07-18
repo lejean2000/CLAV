@@ -1,0 +1,12 @@
+Package: CLAV
+Version: 0.0.1
+Title: An R Package For Cluster Validation
+Description: A set of measures for external and internal cluster validation.
+Authors@R: person("Ivan", "Pavlov", email = "ivan.pavlov@gmail.com", role = c("aut", "cre"))
+URL: https://github.com/lejean2000/CLAV
+BugReports: https://github.com/lejean2000/CLAV/issues
+Depends:
+    R (>= 3.1.0)
+License: GPLv3
+LazyData: true
+RoxygenNote: 6.0.1
