@@ -11,8 +11,10 @@ External measures which will be implemented include: mutual linformation, F-meas
 Internal measures which will be implemented include: Root-mean-square standard deviation, Dunn’s index, Silhouette index, CVNN index, Calinski-Harabasz index, etc.
 
 ## Current Status
-This package has just been created. It has very few external cluster validation measures implemented. 
+This package has just been created. It currently has very few external and no internal cluster validation measures implemented. 
 
 The ev.vanDongen() function computes the value of the van Dongen crietrion. More about it [can be read here]( http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.9783&rep=rep1&type=pdf)
 
 The ev.mi() function calculates the mutual information measure.
+
+The ev.vigneron() is similar to ev.mi() but captures better imbalanced clusters. More about it [can be read here]({https://hal.archives-ouvertes.fr/file/index/docid/203354/filename/es2006-148.pdf})

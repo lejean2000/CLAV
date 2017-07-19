@@ -5,6 +5,8 @@
 #' @param x A vector with cluster assignments.
 #' @param y A vector with cluster assignments.
 #' @return A number between 0 and 1.
+#' @references 
+#' \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.9783&rep=rep1&type=pdf}
 #' @export
 #' @examples
 #' d<-vegan::vegdist (iris[,3:4], method = "euclidean")

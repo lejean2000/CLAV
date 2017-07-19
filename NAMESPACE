@@ -2,3 +2,4 @@
 
 export(ev.mi)
 export(ev.vanDongen)
+export(ev.vigneron)

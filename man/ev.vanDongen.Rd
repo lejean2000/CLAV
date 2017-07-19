@@ -22,3 +22,6 @@ d<-vegan::vegdist (iris[,3:4], method = "euclidean")
 c<-cluster::pam (d, 3, diss = TRUE)
 ev.vanDongen(c$clustering, unclass(iris$Species))
 }
+\references{
+\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.9783&rep=rep1&type=pdf}
+}
