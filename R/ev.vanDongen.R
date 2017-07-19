@@ -6,7 +6,7 @@
 #' @examples
 #' d<-vegan::vegdist (iris[,3:4], method = "euclidean")
 #' c<-cluster::pam (d, 3, diss = TRUE)
-#' clav.vanDongen(c$clustering, unclass(iris$Species))
+#' ev.vanDongen(c$clustering, unclass(iris$Species))
 ev.vanDongen<-function(x, y){
 
 	#Try to coerce x and y to vectors
