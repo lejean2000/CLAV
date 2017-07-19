@@ -17,4 +17,4 @@ The ev.vanDongen() function computes the value of the van Dongen crietrion. More
 
 The ev.mi() function calculates the mutual information measure.
 
-The ev.vigneron() is similar to ev.mi() but captures better imbalanced clusters. More about it [can be read here]({https://hal.archives-ouvertes.fr/file/index/docid/203354/filename/es2006-148.pdf})
+The ev.vigneron() is similar to ev.mi() but captures better imbalanced clusters. More about it [can be read here](https://hal.archives-ouvertes.fr/file/index/docid/203354/filename/es2006-148.pdf)
