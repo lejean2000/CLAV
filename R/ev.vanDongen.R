@@ -5,6 +5,7 @@
 #' @param x A vector with cluster assignments.
 #' @param y A vector with cluster assignments.
 #' @return A number between 0 and 1.
+#' @export
 #' @examples
 #' d<-vegan::vegdist (iris[,3:4], method = "euclidean")
 #' c<-cluster::pam (d, 3, diss = TRUE)
@@ -17,11 +18,12 @@ ev.vanDongen<-function(x, y){
 
 	#check if x and y are vectors of equal length
 	if (!is.vector(x)||!is.vector(y)||length(x)!=length(y)) {
-		stop("clav.vanDongen needs two vectors of equal length")
+		stop("ev.vanDongen needs two vectors of equal length")
 	}
 	
 	Kx = length(unique(x))
 	Ky = length(unique(y))
+	
 	#build the contingency table
 	ctab = ftable(x, y)
 
