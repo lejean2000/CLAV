@@ -1,6 +1,7 @@
 #' @title Computes the van Dongen criterion
-#' The van Dongen criterion is an external validation measure of the representativeness of the majority objects in each class and each cluster. It is an number between 0 and 1 and lower values indicate better cluster similarity.
-#' @description 
+#' 
+#' @description The van Dongen criterion is an external validation measure of the representativeness of the majority objects in each class and each cluster. It is an number between 0 and 1 and lower values indicate better cluster similarity.
+#' 
 #' @param x A vector with cluster assignments.
 #' @param y A vector with cluster assignments.
 #' @return A number between 0 and 1.

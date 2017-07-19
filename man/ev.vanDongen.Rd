@@ -2,8 +2,7 @@
 % Please edit documentation in R/ev.vanDongen.R
 \name{ev.vanDongen}
 \alias{ev.vanDongen}
-\title{Computes the van Dongen criterion
-The van Dongen criterion is an external validation measure of the representativeness of the majority objects in each class and each cluster. It is an number between 0 and 1 and lower values indicate better cluster similarity.}
+\title{Computes the van Dongen criterion}
 \usage{
 ev.vanDongen(x, y)
 }
@@ -14,6 +13,9 @@ ev.vanDongen(x, y)
 }
 \value{
 A number between 0 and 1.
+}
+\description{
+The van Dongen criterion is an external validation measure of the representativeness of the majority objects in each class and each cluster. It is an number between 0 and 1 and lower values indicate better cluster similarity.
 }
 \examples{
 d<-vegan::vegdist (iris[,3:4], method = "euclidean")
