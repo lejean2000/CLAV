@@ -4,18 +4,20 @@
 \alias{ev.vanDongen}
 \title{Computes the van Dongen criterion}
 \usage{
-ev.vanDongen(x, y)
+ev.vanDongen(x, y, normalized = F)
 }
 \arguments{
 \item{x}{A vector with cluster assignments.}
 
 \item{y}{A vector with cluster assignments.}
+
+\item{normalized}{T or F(default). Indicate whether to normalize the measure or not.}
 }
 \value{
 A number between 0 and 1.
 }
 \description{
-The van Dongen criterion is an external validation measure of the representativeness of the majority objects in each class and each cluster. It is an number between 0 and 1 and lower values indicate better cluster similarity.
+The van Dongen criterion is an external validation measure of the representativeness of the majority objects in each class and each cluster. It is an number between 0 and 1 and lower values indicate better cluster similarity. Even though the van Dongen measure is normalized, this is achieved by deleting by 2*n which is an absolute upper bound that is not tight. Hence, a special normalization with a tighter upper bound is also provided (by using \code{normalized=T}).
 }
 \examples{
 d<-vegan::vegdist (iris[,3:4], method = "euclidean")
